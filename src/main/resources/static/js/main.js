@@ -52,8 +52,6 @@ function onError(error) {
 }
 
 function sendMessage(event) {
-    //var messageContent = messageInput;
-    console.log(messageInput.value + "  thiiiiiiiis")
     if(messageInput.value && stompClient) {
         var chatMessage = {
             sender: username,
